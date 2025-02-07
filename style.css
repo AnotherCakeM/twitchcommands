@@ -1,0 +1,9 @@
+*{
+    font-family:"Manrope", sans-serif;
+    background-color: #1F1F1F;
+    color: white;
+    --red:#ff5c5c;
+    --orange: #ffbd4a;
+    --blue: #4acbff;
+    --green: #4aff82;
+}
