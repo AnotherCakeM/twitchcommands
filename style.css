@@ -15,6 +15,7 @@ body{
     background-color: #1F1F1F;
 }
 
+/*Navigation */
 .navbar{
     display:flex;
     justify-content: center;
@@ -46,6 +47,40 @@ body{
     display:flex;
     justify-content: center;
 }
+
+#smallnav{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background: white;
+
+    position: fixed;
+    top:20;
+    left:10%;
+    width:80%;
+    height:20%;
+    border-radius: 0 0 var(--rounded) var(--rounded);
+}
+
+#smallnav li a{
+    color:var(--black);
+    text-decoration: none;
+}
+
+#smallnav li{
+    text-align: center;
+    list-style-type:none;
+    background-color: var(--orange);
+    padding:1em;
+    width:70%;
+    border-radius: var(--rounded);
+}
+
+
+
+/*Add hover stuff*/
+
 
 .main-title{
     margin-top:0.5em;
